@@ -1,0 +1,5 @@
+service hdcp_1_1_hal_service /odm/bin/hw/vendor.oplus.hardware.hdcp@1.1-service
+    class hal
+    user media
+    group media system mediadrm drmrpc inet
+
